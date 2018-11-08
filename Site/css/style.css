@@ -1,5 +1,9 @@
 /** Main CSS file **/
 
+/** WIP CSS Code **/
+li {
+  list-style: none;
+}
 .logo-main {
   height: 200px;
   width: auto;

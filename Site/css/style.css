@@ -1,10 +1,76 @@
 /** Main CSS file **/
 
 /** WIP CSS Code **/
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 li {
   list-style: none;
 }
+
+ul {
+  padding: 0;
+  margin: auto;
+}
+
 .logo-main {
-  height: 200px;
+  height: 100px;
   width: auto;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.content-wrap {
+
+}
+
+.card-wide {
+  width: 100%;
+  margin: auto;
+}
+
+#home-hero-section {
+  min-height: 550px;
+  color: #30ffbb;
+  text-align: center;
+}
+
+#home-hero-section .bg-img {
+  position: absolute;
+  background-image: url('../img/hero-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  z-index: -1;
+}
+
+#section-1 {
+  padding: 0 1.5em;
+  background-color: #30ffbb;
+  color: #202f3b;
 }

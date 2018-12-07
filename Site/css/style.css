@@ -60,7 +60,7 @@ ul {
   border-bottom: 2px solid #202f3b;
 }
 
-.card-content {
+.card-wide-content {
   padding: 0 1.5em;
 }
 
@@ -85,4 +85,25 @@ ul {
   padding: 0;
   background-color: #30ffbb;
   color: #202f3b;
+}
+
+.card {
+  border-bottom: 2px solid #202f3b;
+}
+
+.card-content {
+  width: 100%;
+}
+
+.portfolio-work-list {
+  padding-bottom: 4px;
+}
+
+.portfolio-list-item {
+  font-size: .8em;
+  display: inline-block;
+  padding: 1px 3px 1px 3px;
+  margin: 2px 0 2px 0;
+  border: solid 1px #333;
+  border-radius: 30px;
 }

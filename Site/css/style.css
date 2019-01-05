@@ -87,8 +87,17 @@ ul {
   color: #202f3b;
 }
 
+#section-2 {
+  background-color: #202f3b;
+  padding-top: 1px;
+}
+
+#portfolio-heading {
+  color: #30ffbb;
+}
+
 .card {
-  border-bottom: 2px solid #202f3b;
+  border-bottom: 3px solid #30ffbb;
 }
 
 .card-content {
@@ -97,13 +106,15 @@ ul {
 
 .portfolio-work-list {
   padding-bottom: 4px;
+  padding-top: 4px;
 }
 
 .portfolio-list-item {
   font-size: .8em;
+  color: #30ffbb;
   display: inline-block;
   padding: 1px 3px 1px 3px;
   margin: 2px 0 2px 0;
-  border: solid 1px #333;
+  border: solid 1px #30ffbb;
   border-radius: 30px;
 }

@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background: #fff;
   color: #333;
   font-size: 1em;
@@ -15,6 +15,11 @@ body {
 h1, h2 {
   margin: 0;
   padding: 1em 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #30ffbb;
 }
 
 #section-1 h3 {
@@ -33,6 +38,7 @@ img {
   width: 100%;
   height: auto;
 }
+
 li {
   list-style: none;
 }
@@ -47,10 +53,6 @@ ul {
   width: auto;
   margin: auto;
   padding-top: 5%;
-}
-
-.content-wrap {
-
 }
 
 .card-wide {
@@ -89,19 +91,24 @@ ul {
 
 #section-2 {
   background-color: #202f3b;
-  padding-top: 1px;
 }
 
 #portfolio-heading {
   color: #30ffbb;
 }
 
+#section-2 li {
+  background: #fff;
+}
+
 .card {
-  border-bottom: 3px solid #30ffbb;
+  height: auto;
 }
 
 .card-content {
+  display: none;
   width: 100%;
+  border-top: solid 1px #202f3b;
 }
 
 .portfolio-work-list {
@@ -111,10 +118,113 @@ ul {
 
 .portfolio-list-item {
   font-size: .8em;
-  color: #30ffbb;
+  color: #202f3b;
   display: inline-block;
   padding: 1px 3px 1px 3px;
   margin: 2px 0 2px 0;
-  border: solid 1px #30ffbb;
+  border: solid 1px #202f3b;
   border-radius: 30px;
+}
+
+#section-3 .box {
+  padding: 1em 2em 2em 2em;
+}
+
+#section-3 .box:first-child {
+  background: #202f3b;
+  color: #30ffbb;
+}
+
+#section-3 .box:nth-child(2) {
+  background: #30ffbb;
+  color: #202f3b;
+}
+
+form {
+  margin: 0 auto;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 1em;
+  border: solid 1px #30ffbb;
+}
+
+input {
+  height: 2em;
+}
+
+textarea {
+  height: 4em;
+}
+
+.submit-button button {
+  padding: 1em 5em;
+  margin: 1em 0 2.5em 0;
+  background-color: #30ffbb;
+  border: none;
+}
+
+#profile-pic {
+  margin: auto;
+  width:75%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.social-icons a {
+  width: 20%;
+  margin: 0 .5em;
+  display: inline-block;
+}
+
+/** Layout for Desktop screens **/
+@media (min-width: 736px) {
+
+  #home-hero-section .bg-img {
+    position: absolute;
+    background-image: url('../img/hero-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    z-index: -1;
+  }
+
+  #section-1 {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  }
+
+  #section-1 img {
+    display: block;
+    height: 12em;
+    width: auto;
+    margin: auto;
+  }
+
+  #section-1 ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #section-1 li {
+    padding: 0 9em;
+  }
+
+.card-wide {
+    columns: 1;
+    column-gap: 2em;
+    border-bottom: none;
+  }
+
+  #section-1 li:first-child, #section-1 li:nth-child(2) {
+    border-right: solid 2px #202f3b;
+  }
 }

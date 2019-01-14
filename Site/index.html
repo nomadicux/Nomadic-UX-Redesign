@@ -16,9 +16,9 @@
   <h1 class="hero-heading">NOMADIC UX</h1>
   <h2 class="hero-sub-title">FULL-STACK DESIGN + CONSULTING</h2>
   <div class="hero-nav">
-    <div class="nav-item">SERVICES</div>
-    <div class="nav-item">WORK</div>
-    <div class="nav-item">CONTACT</div>
+    <div class="nav-item"><a href="#section-1">SERVICES</a></div>
+    <div class="nav-item"><a href="#section-2">WORK</a></div>
+    <div class="nav-item"><a href="#section-3">CONTACT</a></div>
   </div>
   </div>
 </section>
@@ -67,7 +67,6 @@
 <!-- Portfoliio Section -->
 <section id="section-2" class="grid">
   <div class="content-wrap">
-    <h3 id="portfolio-heading">PREVIOUS + CURRENT WORK</h3>
     <ul>
       <li>
         <div class="card">
@@ -77,6 +76,7 @@
               <li class="portfolio-list-item">+ SEO</li>
               <li class="portfolio-list-item">+ UX Consulting</li>
               <li class="portfolio-list-item">+ Site Maintenance</li>
+              <li class="portfolio-list-item">+ EDM Creative</li>
             </ul>
           </div>
         </div>
@@ -102,6 +102,19 @@
               <li class="portfolio-list-item">+ Web Design</li>
               <li class="portfolio-list-item">+ UX Consulting</li>
               <li class="portfolio-list-item">+ Site Maintenance</li>
+              <li class="portfolio-list-item">+ Online Advertising</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <img src="../img/ERM-01.jpg" alt="programming-img">
+          <div class="card-content">
+            <ul class="portfolio-work-list">
+              <li class="portfolio-list-item">+ Web Design</li>
+              <li class="portfolio-list-item">+ UX Consulting</li>
+              <li class="portfolio-list-item">+ Site Maintenance</li>
             </ul>
           </div>
         </div>
@@ -110,9 +123,46 @@
   </div>
 </section>
 
-<section id="section-3">
+<section id="section-3" class="grid">
   <div class="content-wrap">
-
+    <div class="box">
+      <h2 class="content-title">CONTACT</h2>
+      <p>If you would like to work with me or have any questions, please shoot me an email. Or hit me up on social media for a chat.</p>
+      <form action="mailer.php" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+          <label for="mail">E-mail</label>
+          <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+          <label for="msg">Message</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="submit-button">
+          <button type="submit">SUBMIT</button>
+        </div>
+      </form>
+      <div class="social-icons">
+        <a href=""><img src="img/facebook-green.png" alt="facebook icon"></a>
+        <a href=""><img src="img/instagram-green.png" alt="instagram icon"></a>
+        <a href=""><img src="img/youtube-green.png" alt="youtube icon"></a>
+      </div>
+    </div>
+    <div class="box">
+      <h2 class="content-title">ABOUT</h2>
+      <img id="profile-pic" src="/img/profile_pic_square.jpg" alt="photo of me">
+      <p><b>My name is Josh and I love making websites!</b></p>
+      <p>With a background in computer science and software engineering as well as over 5 years of web & UX design experience, I am confident that I can help you build the online presence you want.</p>
+      <p>I love sharing my story and helping others to improve their own design skills. So feel free to message me for a chat via your favourite social platform.</p>
+      <div class="social-icons">
+        <a href=""><img src="img/facebook-navy.png" alt="facebook icon"></a>
+        <a href=""><img src="img/instagram-navy.png" alt="instagram icon"></a>
+        <a href=""><img src="img/youtube-navy.png" alt="youtube icon"></a>
+      </div>
+    </div>
   </div>
 </section>
 

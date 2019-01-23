@@ -133,22 +133,22 @@
 <div class="links-bar">
   <ul>
     <li>
-      <a href="https://www.facebook.com/nomadicux/">Facebook</a>
+      <a href="https://www.facebook.com/nomadicux/" target="_blank">Facebook</a>
     </li>
     <li>
-      <a href="https://www.instagram.com/nomadic_ux/">Instagram</a>
+      <a href="https://www.instagram.com/nomadic_ux/" target="_blank">Instagram</a>
     </li>
     <li>
-      <a href="https://twitter.com/NomadicUx?lang=en">Twitter</a>
+      <a href="https://twitter.com/NomadicUx?lang=en" target="_blank">Twitter</a>
     </li>
     <li>
-      <a href="https://www.youtube.com/channel/UCcnvZ17sbnyZKYPybD1AS-g/">YouTube</a>
+      <a href="https://www.youtube.com/channel/UCcnvZ17sbnyZKYPybD1AS-g/" target="_blank">YouTube</a>
     </li>
     <li>
-      <a href="https://github.com/nomadicux">GitHub</a>
+      <a href="https://github.com/nomadicux" target="_blank">GitHub</a>
     </li>
     <li>
-      <a href="https://dribbble.com/JoshHiles">Dribble</a>
+      <a href="https://dribbble.com/JoshHiles" target="_blank">Dribble</a>
     </li>
   </ul>
 </div>
@@ -185,27 +185,27 @@
     <div class="box">
       <h3 class="content-title">CONTACT</h3>
       <p>If you would like to work with me or have any questions, please shoot me an email. Or hit me up on social media for a chat.</p>
-      <form action="mailer.php" method="post">
+      <form action="/php/mailer.php" method="POST" name="contactForm" onsubmit="return validateForm()">
         <div>
           <label for="name">Name</label>
-          <input type="text" id="name" name="user_name">
+          <input type="text" id="name" name="userName">
         </div>
         <div>
           <label for="mail">E-mail</label>
-          <input type="email" id="mail" name="user_mail">
+          <input type="email" id="mail" name="userMail">
         </div>
         <div>
           <label for="msg">Message</label>
-          <textarea id="msg" name="user_message"></textarea>
+          <textarea id="msg" name="userMessage"></textarea>
         </div>
         <div class="submit-button">
           <button type="submit">SUBMIT</button>
         </div>
       </form>
       <div class="social-icons">
-        <a href="https://www.facebook.com/nomadicux/"><img src="img/facebook-green.png" alt="facebook icon"></a>
-        <a href="https://www.instagram.com/nomadic_ux/"><img src="img/instagram-green.png" alt="instagram icon"></a>
-        <a href=""><img src="img/youtube-green.png" alt="youtube icon"></a>
+        <a href="https://www.facebook.com/nomadicux/" target="_blank"><img src="img/facebook-green.png" alt="facebook icon"></a>
+        <a href="https://www.instagram.com/nomadic_ux/" target="_blank"><img src="img/instagram-green.png" alt="instagram icon"></a>
+        <a href="https://www.youtube.com/channel/UCcnvZ17sbnyZKYPybD1AS-g" target="_blank"><img src="img/youtube-green.png" alt="youtube icon"></a>
       </div>
     </div>
     <div class="box">
@@ -215,16 +215,18 @@
       <p>With a background in computer science and software engineering as well as over 5 years of web & UX design experience, I am confident that I can help you build the online presence you want.</p>
       <p>I love sharing my story and helping others to improve their own design skills. So feel free to message me for a chat via your favourite social platform.</p>
       <div class="social-icons">
-        <a href="https://www.facebook.com/nomadicux/"><img src="img/facebook-navy.png" alt="facebook icon"></a>
-        <a href="https://www.instagram.com/nomadic_ux/"><img src="img/instagram-navy.png" alt="instagram icon"></a>
-        <a href="https://www.youtube.com/channel/UCcnvZ17sbnyZKYPybD1AS-g/"><img src="img/youtube-navy.png" alt="youtube icon"></a>
+        <a href="https://www.facebook.com/nomadicux/" target="_blank"><img src="img/facebook-navy.png" alt="facebook icon"></a>
+        <a href="https://www.instagram.com/nomadic_ux/" target="_blank"><img src="img/instagram-navy.png" alt="instagram icon"></a>
+        <a href="https://www.youtube.com/channel/UCcnvZ17sbnyZKYPybD1AS-g/" target="_blank"><img src="img/youtube-navy.png" alt="youtube icon"></a>
       </div>
     </div>
   </div>
 </section>
 
 <footer>
-
+<a href="pages/terms.html">Terms Of Service</a> |
+<a href="#">Home</a>
+<p>&copy; Copyright Nomadic UX 2019</p>
 </footer>
 </body>
 </html>

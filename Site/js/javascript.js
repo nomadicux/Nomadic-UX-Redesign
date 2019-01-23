@@ -50,3 +50,19 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 // End scroll to top code
+
+//***************************************************************************
+
+// Form validation Code
+function validateForm() {
+  var i = document.forms["contactForm"]["userName"].value;
+  var j = document.forms["contactForm"]["userEmail"].value;
+  if (i == "") {
+    alert("Name cannot be empty");
+    return false;
+  }
+  if ( == "") {
+    alert("Email cannot be empty");
+    return false;
+  }
+}

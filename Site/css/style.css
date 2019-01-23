@@ -374,6 +374,12 @@ q {
   color: #202f3b;
 }
 
+.tos-heading img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
 .terms-main-section {
   background-color: #ddd;
 }
@@ -604,6 +610,12 @@ footer p {
   }
 
   /** Code for Terms of service page **/
+
+  .tos-heading img {
+    width: 15%;
+    height: auto;
+    margin: auto;
+  }
 
   .terms-main-section {
     display: grid;

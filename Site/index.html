@@ -185,18 +185,18 @@
     <div class="box">
       <h3 class="content-title">CONTACT</h3>
       <p>If you would like to work with me or have any questions, please shoot me an email. Or hit me up on social media for a chat.</p>
-      <form action="php/mailer.php" method="POST" name="contactForm" onsubmit="return validateForm()">
+      <form action="php/mailer.php" method="POST" name="contactForm">
         <div>
           <label for="name">Name</label>
-          <input type="text" id="name" name="userName">
+          <input type="text" name="userName">
         </div>
         <div>
           <label for="mail">E-mail</label>
-          <input type="email" id="mail" name="userMail">
+          <input type="email" name="userEmail">
         </div>
         <div>
           <label for="msg">Message</label>
-          <textarea id="msg" name="userMessage"></textarea>
+          <textarea name="userMessage"></textarea>
         </div>
         <div class="submit-button">
           <button type="submit">SUBMIT</button>

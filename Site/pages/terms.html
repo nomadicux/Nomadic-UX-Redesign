@@ -36,7 +36,7 @@
   <div class="item-2">
     <h2>Payment</h2>
     <ul>
-      <li> The client will be invoiced once the project is complete or on a specified date once a month if it is on-going. The invoice payment period starts from when the invoice is sent to the client.</li>
+      <li> The client will be invoiced once the project is complete or on a specified date once a month if the work is on-going. The invoice payment period starts from when the invoice is sent to the client.</li>
       <li>Clients will have a 15 day payment period to pay the invoice in full. (exceptions can be made if discussed prior to payment being due.)</li>
     </ul>
   </div>
@@ -51,18 +51,18 @@
 <div class="contact-wrapper">
   <h3 class="content-title">CONTACT</h3>
   <p>If you would like to work with me or have any questions, please shoot me an email. Or hit me up on social media for a chat.</p>
-  <form action="../php/mailer.php" method="POST" name="contactForm" onsubmit="return validateForm()">
+  <form action="../php/mailer.php" method="POST" name="contactForm">
     <div>
       <label for="name">Name</label>
-      <input type="text" id="name" name="userName">
+      <input type="text" name="userName">
     </div>
     <div>
       <label for="mail">E-mail</label>
-      <input type="email" id="email" name="userEmail">
+      <input type="email" name="userEmail">
     </div>
     <div>
       <label for="msg">Message</label>
-      <textarea id="msg" name="userMessage"></textarea>
+      <textarea name="userMessage"></textarea>
     </div>
     <div class="submit-button">
       <button type="submit">SUBMIT</button>

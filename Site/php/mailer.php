@@ -12,7 +12,7 @@ $mail = new PHPMailer;
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-$mail->isSMTP();                                      // Set mailer to use SMTP
+//$mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.office365.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'jhiles@nomadicux.com';                 // SMTP username
